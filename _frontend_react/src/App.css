@@ -1,0 +1,37 @@
+
+form {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form > label { 
+    display: block;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+label > input {
+    display: block;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+    margin-top: 0.3rem;
+}
+
+form > button { 
+    margin-top: 1.5rem;
+    background: violet;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 100px;
+}
+
+form > button:hover { 
+    cursor: pointer;
+}
